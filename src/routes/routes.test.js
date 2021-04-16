@@ -34,7 +34,7 @@ describe('Test routes', () => {
         });
     });
 
-    describe('GET /api/config/team', () => {
+    /*describe('GET /api/config/team', () => {
         it('should return the team name', (done) => {
             chai.request(server)
                 .get('/api/config/team')
@@ -45,7 +45,7 @@ describe('Test routes', () => {
                     done();
                 })
         });
-    });
+    });*/
 
     describe('GET /api/config/version', () => {
         it('should return the version', (done) => {
